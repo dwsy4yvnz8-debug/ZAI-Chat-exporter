@@ -1,0 +1,13 @@
+{
+  "name": "zai-chat-exporter",
+  "version": "1.0.0",
+  "description": "Bookmarklet that exports the full message tree of a Z.AI chat as Markdown and JSON.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "node build/build.js"
+  },
+  "devDependencies": {
+    "terser": "^5.31.0"
+  }
+}
